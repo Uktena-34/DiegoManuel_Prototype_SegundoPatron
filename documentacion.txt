@@ -1,0 +1,11 @@
+﻿Prototype es un patron de diseño creacional que permite la clonación de objetos, incluso los complejos,
+sin acloparse a sus clases espesificas.
+
+Todas las clases prototipo deben tener una interfaz común que haga posible copiar objetos incluso si sus clases concretas son desconocidas.
+
+______________________________________________________________________________________________________________
+
+Se debe de usar el pátron cuando el codigo no debe de depender de las clases concretas de objetos que necesitas copiar. 
+Por ejemplo cuando tu código funciona con objetos que te pasan desdeun codigo de terceros a travez de alguna interfaz.
+
+
